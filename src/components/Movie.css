@@ -1,0 +1,26 @@
+.movie {
+    background-color: white;
+    display: inline-flex;
+    width: 45%;
+    min-width: 450px;
+    height: 300px;
+    margin: 10px;
+}
+
+.img-wrapper {
+    width: 40%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    box-shadow: 5px gray;
+}
+
+.movie__img {
+    height: 200px;
+}
+
+.movie__data {
+    display: inline;
+    width: 45%;
+}
